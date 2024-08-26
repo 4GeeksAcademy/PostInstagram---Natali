@@ -1,0 +1,71 @@
+
+    /* Estilos globales o comunes  */
+body {
+    font-family: Roboto, sans-serif;
+  }
+  
+  
+  .post {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  /* header */
+  .post-header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .post-header i {
+    font-size: 25px;
+  }
+  
+  .post-user-info h2,
+  .post-user-info h3 {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .post-user-info h3 {
+    font-weight: 400;
+  }
+  .post-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .post-img img {
+    width: 100%;
+  }
+  .post-body {
+    padding: 10px;
+  }
+
+.post-icons {
+    display: flex;
+    justify-content: space-between
+
+}
+i{
+  margin-right:5px;
+}
+
+.separate{
+    margin-left: auto;
+}
+
+
+
+
+
+
+
