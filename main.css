@@ -2,13 +2,23 @@
     /* Estilos globales o comunes  */
 body {
     font-family: Roboto, sans-serif;
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+
+
+    
   }
   
   
   .post {
+    background-color: white;
     border: 1px solid black;
-    border-radius: 10px;
-    margin: 20px 0;
+    width: 380px;
+    margin: auto;
+    
+
   }
   
   /* header */
